@@ -1,0 +1,7 @@
+megs: 32
+romimage: file=$BXSHARE/BIOS-bochs-latest
+vgaromimage: file=$BXSHARE/VGABIOS-elpin-2.40
+floppya: 1_44="build/main_floppy.img", status=inserted
+boot: floppy
+sound: driver=dummy
+display_library: x, options="gui_debug"
